@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: "Inter", serif;
+}
+/* Estilo cabeçalho */
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    width: 500px;
+    height: 30px;
+}
+nav a{
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #5DB1F1;
+}
+header svg{
+    fill: #5DB1F1;
+    height: 60px;
+}
+/* Estilo do corpo do site */
+main h1{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6em;
+    width: 400px;
+    color: #5DB1F1;
+    text-shadow: 0.03em 0.06em gray;
+}
+.introduction{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+.introduction img{
+    width: 700px;
+}
+.contact-information{
+    margin-top: 240px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #5DB1F1;
+    padding: 50px;
+    align-items: center;
+}
+.contact-information section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-information svg{
+    width: 50px;
+    fill: #e9411a;
+}
+.contact-information h2{
+    color: white;
+    margin-top: 20px;
+}
+.contact-information p{
+    color: #e9411a;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+}
+.adress{
+    width: 200px;
+}
