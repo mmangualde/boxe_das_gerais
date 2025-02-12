@@ -30,6 +30,40 @@ nav a{
 header svg{
     fill: #5DB1F1;
     height: 60px;
+    cursor: pointer;
+}
+dialog{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 200px;  
+    border: solid 1px;
+    padding: 30px;
+    border-radius: 20px;
+}
+dialog h2{
+    width: 100%;
+    text-align: center;
+    color: #5DB1F1;
+}
+header form{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 20px;
+    gap: 5px;
+    width: 250px;
+    margin-left: 35px;
+}
+header input[type="submit"] {
+    grid-column: 1/-1;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: #5DB1F1;
 }
 /* Estilo do corpo do site */
 main h1{
