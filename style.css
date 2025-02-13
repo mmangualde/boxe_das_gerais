@@ -32,6 +32,7 @@ header svg{
     height: 60px;
     cursor: pointer;
 }
+/* Estilo do modal */
 dialog{
     position: absolute;
     transform: translate(-50%, -50%);
