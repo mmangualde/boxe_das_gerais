@@ -9,13 +9,14 @@ interface HeaderProps {
 export default function Header({ onOpenModal, onCloseModal, isModalOpen }: HeaderProps) {
   return (
     <header>
-      <img src="/assets/logo_boxe_das_gerais 1.png" alt="Logo Boxe das Gerais" />
+      <img src="/assets/logo_boxe_das_gerais.png" alt="Logo Boxe das Gerais" />
 
       <nav>
         <ul>
           <li><a href="#inicio">Início</a></li>
           <li><a href="#aulas">Aulas</a></li>
           <li><a href="#cronograma">Cronograma</a></li>
+          <li><a href="#videos">Vídeos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>

@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import Aulas from "./components/Aulas";
 import Cronograma from "./components/Cronograma";
 import ContactInfo from "./components/ContactInfo";
+import Videos from "./components/Videos";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Introduction />
         <Aulas />
         <Cronograma />
+        <Videos />
         <ContactInfo />
       </main>
     </>

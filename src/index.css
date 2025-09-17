@@ -24,16 +24,17 @@ nav{
 }
 nav ul{
     display: flex;
-    justify-content: space-around;
     list-style: none;
     padding: 0;
     width: 500px;
     height: 30px;
+    gap: 20px;
 }
 nav a{
     font-size: 1.6em;
     font-weight: 600;
     color: #5DB1F1;
+    text-decoration: none;
 }
 header svg{
     fill: #5DB1F1;
@@ -95,18 +96,8 @@ dialog form input[type="submit"] {
     font-weight: bold;
     cursor: pointer;
 }
-
-main h1{
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 6em;
-    width: 400px;
-    color: #5DB1F1;
-    text-shadow: 0.03em 0.06em gray;
-}
 .introduction-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/foto-capa 1.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/foto-capa.png');
     height: 90vh; 
     background-size: cover;
     background-position: center;
@@ -260,8 +251,6 @@ header svg:hover {
     color: black;
 }
 
-/* Em index.css */
-
 .section-subtitle {
   font-size: 1.2em;
   color: #666;
@@ -270,8 +259,6 @@ header svg:hover {
 
 .videos-container {
   display: grid;
-  /* Cria um grid responsivo: os vídeos tentam ter 500px, 
-     mas se ajustam para caber no espaço */
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
   width: 90%;
